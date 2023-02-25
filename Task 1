@@ -1,0 +1,9 @@
+sudo adduser newuser
+sudo su
+sudo useradd student
+sudo passwd student
+12345
+exit
+su student
+12345
+whoamiexit
