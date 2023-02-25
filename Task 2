@@ -1,0 +1,24 @@
+!!!Connection via NAT
+Click on "Settings" and select "Network" from the left pane
+In the "Attached to" dropdown menu, select "NAT
+
+
+
+!!! Direct IP Connection to the Internet
+Click on "Settings" and select "Network" from the left pane.
+Select "Bridged Adapter.
+Select the network interface of host machine that is connected to the internet.
+
+
+
+!!! Connection via Proxy Server
+In the "Attached to" dropdown menu, select "NAT."
+Click on the "Advanced" dropdown menu and select "Port Forwarding."
+Click the "+" button to add a new rule.
+In the "Name" field, enter a name "Proxy"
+In the "Protocol" dropdown menu, select "TCP"
+In the "Host IP" field, enter 127.0.0.1
+In the "Host Port" field, enter the port number 8080
+In the "Guest IP" field, enter 10.0.2.15
+In the "Guest Port" field, enter the port number 8080
+Click "OK" to save the changes.
